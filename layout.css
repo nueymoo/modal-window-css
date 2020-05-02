@@ -5,6 +5,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    margin: 0;
 }
     .bubble-1 {
         width: 1100px;
@@ -164,10 +165,8 @@ footer {
 }
 
 
-@media screen and (min-width: 1024px) {
-    header {
-        margin-top: 300px;
-    }
+@media screen and (max-width: 1024px) {
+
         .heading {
             font-size: 3rem;
         }
